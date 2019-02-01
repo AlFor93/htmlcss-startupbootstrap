@@ -1,0 +1,23 @@
+.navbar {
+  background-color: #2c3e50;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.navbar-brand {
+  padding-left: 30px;
+}
+.navbar-nav {
+  height: 50px;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
+}
+.nav-item {
+  margin: 0 25px;
+  list-style: none;
+  text-decoration: none;
+background-color: transparent;
+}
