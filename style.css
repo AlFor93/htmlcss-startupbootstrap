@@ -5,6 +5,8 @@
   top: 0;
   left: 0;
   right: 0;
+  margin-bottom: 0;
+  z-index: 5;
 }
 .navbar-brand {
   padding-left: 30px;
@@ -19,5 +21,48 @@
   margin: 0 25px;
   list-style: none;
   text-decoration: none;
-background-color: transparent;
+  background-color: transparent;
+}
+header {
+  background-color: #18bc9c;
+  height: 600px;
+}
+.text-white {
+  color: white;
+}
+#photo_profile {
+  margin-bottom: 42px;
+}
+section,header {
+  padding-top: 80px;
+  padding-bottom: 90px;
+}
+#portfolio img {
+  width: 350px;
+}
+.top {
+  margin-bottom: 30px;
+}
+#about {
+  background-color: #18bc9c
+}
+#about h2 {
+  margin-bottom: 30px;
+}
+#about p {
+  margin-top: 20px;
+}
+.btn:hover {
+  background-color: white;
+}
+.btn {
+  border-width: 2px;
+  border-radius: 4px;
+}
+.btn-outline-light {
+  color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+#about a{
+  font-size: 20px;
 }
