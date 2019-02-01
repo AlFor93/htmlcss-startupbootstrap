@@ -33,6 +33,12 @@ header {
 #photo_profile {
   margin-bottom: 42px;
 }
+header h1 {
+  font-size: 72px;
+}
+header h2 {
+  font-size: 28px;
+}
 section,header {
   padding-top: 80px;
   padding-bottom: 90px;
@@ -40,16 +46,24 @@ section,header {
 #portfolio img {
   width: 350px;
 }
+#portfolio h2,#contact_me h2 {
+  color: #2c3e50;
+  font-size: 44px;
+}
 .top {
   margin-bottom: 30px;
 }
 #about {
   background-color: #18bc9c
 }
-#about h2 {
+#about h2, #contact_me h2 {
   margin-bottom: 30px;
 }
 #about p {
+  margin-top: 20px;
+}
+#about a{
+  font-size: 20px;
   margin-top: 20px;
 }
 .btn:hover {
@@ -62,7 +76,4 @@ section,header {
 .btn-outline-light {
   color: #f8f9fa;
   border-color: #f8f9fa;
-}
-#about a{
-  font-size: 20px;
 }
